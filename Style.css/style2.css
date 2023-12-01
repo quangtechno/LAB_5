@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logoHeader{
+   text-align: left;
+}
+.navigation{
+    text-align: right;
+}
+#navigate a{
+    color: red;
+    font-weight: bold;
+}
+
+#navigate button{
+   border-radius: 20px;
+}
+a{
+   text-decoration: none;
+}
+.nav-input{
+    float: right;
+}
+
+nav{
+    clear:both;
+    padding: 10px;
+    background-color: rgb(192, 241, 233);
+}
+
+span{
+   text-decoration: none;
+}
+#body{
+    clear: both;
+    background-color: #EEEAE9;
+}
+aside#left, aside#right, section {
+    display: table-cell;
+    vertical-align: top;
+}
+aside#left{
+       width:20%;
+    }
+ aside#right{
+    margin: 10px;
+     width: 20%;
+     border: 1px solid blue;
+         }
+ h3{
+    text-align: center;
+    background-color: #1F69B4;
+    color: white;
+ }
+#left ul{
+    background-color:  white;
+    border: 1px solid blue   ;
+ }
+img {
+   width: 25%;
+   height: 25%;
+ }
+ .bill{
+    font-weight: bold;
+ }
+ .price{
+     color: red;
+ }
+ 
+ 
+ .photo{
+   position: static;
+   width: 250px;
+   height: 250px;
+   margin-right: 30px;
+   float: left;
+   right: 0;
+ }
+ section{
+   height: 100%;
+ }
+ section .backcolor{
+    border: 1px;
+    align-items: center;
+ }
+
+ .buttonbuy{
+   width: 15%;
+   height: 10%;
+   position: absolute;
+   right: 5%;
+   bottom: 1%;
+ }
+ .product-box_footer{
+ clear: both;
+ }
+ .namebook{
+   font-size: 30px;
+   font-weight: bold;
+   text-align: center;
+    background-color:aqua;
+    color: white;
+}
+ .backcolor{
+    background-color: #CFE2FF;
+    align-content: center;
+ }
+ footer{
+    text-align: center;
+    background-color: rgb(125, 236, 151);
+ }
+ .custom-input-group-text {
+   background-color: #ffc0cb; /* Light Pink */
+  
+ }
+
+ 

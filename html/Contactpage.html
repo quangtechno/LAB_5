@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="D:\web\lab_5\Style.css\contract.css">
+    <script>
+        function submit(){
+        var name=document.getElementById("Username").value;
+        var email=document.getElementById("Email").value;
+        if(!name|| !email){
+            alert("Please fill in all fields");
+        }
+    }
+    </script>
+</head>
+
+<body>
+    <div class="mb-3 contract ">
+        <h1>contract Us</h1>
+        <div class="labelDiv">
+        <label for="Username" class="form-label">Name:</label>
+    </div>
+    <div class="inputDiv">
+        <input type="text" class="form-control border-opacity-50 w-75" id="Username">
+    </div>
+        <div class="labelDiv">
+        <label for="Email" class="form-label">Email:</label>
+    </div>
+    <div class="inputDiv">
+        <input type="email" class="form-control border-opacity-50 w-75 "  id="Email">
+    </div>
+        <div class="labelDiv">
+        <label for="Message" class="form-label border-opacity-50 w-75">Message</label>
+
+    </div>
+        <div class="form-floating border-opacity-50 w-75">
+            <textarea class="form-control" id="Message"></textarea>
+            <label for="Message"></label>
+          </div>
+          <button type="submit" class="btn btn-success" onclick="submit()">Submit</button>
+      </div>
+</body>
+
+</html>

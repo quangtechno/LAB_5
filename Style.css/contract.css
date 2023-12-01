@@ -1,0 +1,17 @@
+body{
+    position: relative;
+    display: flex;
+    row-gap: 30px;
+    column-gap: 20px;
+    justify-content: center;
+}
+.contract{
+    display: static;
+    top: 50px;
+    width: 25%;
+    text-align: center;
+    box-shadow: 0px 0px 3px black;
+}
+.labelDiv{
+    text-align: left;
+}
